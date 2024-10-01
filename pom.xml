@@ -8,7 +8,15 @@
 	<name>CreditCardApplication</name>
 	<description>Credit Card Application</description>
 
+	<dependencies>
 
+		<!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
+		<dependency>
+			<groupId>jakarta.mail</groupId>
+			<artifactId>jakarta.mail-api</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
 		<dependency>
 			<groupId>org.eclipse.angus</groupId>
